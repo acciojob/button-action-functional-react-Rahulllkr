@@ -6,7 +6,7 @@ function App() {
   return (
     <div id="main">
       
-      {show && <p id="para">Hello, I've learnt to use the full-stack evalution tool. This makes me so happy</p>}
+      {show && <p id="para">Hello, I've learnt to use the full-Stack evalution tool. This makes me so happy</p>}
       <button id="click" onClick={() => setShow(!show)}>Click</button>
     </div>
   );
